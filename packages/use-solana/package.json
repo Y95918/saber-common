@@ -22,7 +22,7 @@
     "@saberhq/tsconfig": "^2.1.0",
     "@solana/web3.js": "^1.63.1",
     "@types/bn.js": "^5.1.1",
-    "@types/node": "^18.7.23",
+    "@types/node": "^20.10.7",
     "@types/react": "^18.0.21",
     "bn.js": "^5.2.1",
     "react": "^18.2.0",
