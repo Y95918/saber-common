@@ -1929,10 +1929,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ledgerhq/devices@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "@ledgerhq/devices@npm:8.2.0"
+  dependencies:
+    "@ledgerhq/errors": "npm:^6.16.1"
+    "@ledgerhq/logs": "npm:^6.12.0"
+    rxjs: "npm:^7.8.1"
+    semver: "npm:^7.3.5"
+  checksum: 3e2275d565b9ecca185127993f3f2e653839d9142b0dc4f7774b5bf0cda63e9762baf1b541055d1db7c1fe48f3363b8130c125928d24c445536b3e4535f05cec
+  languageName: node
+  linkType: hard
+
 "@ledgerhq/errors@npm:^6.10.0, @ledgerhq/errors@npm:^6.11.0":
   version: 6.11.0
   resolution: "@ledgerhq/errors@npm:6.11.0"
   checksum: 4477fb2c885345f8cb3c1bbafc7457a52d4bb8605e606155fa2d9e5da99997bc6bd19493a869490eb4884eeda40a3ec9c3a87b5b2e965daf8dfb749ebe6d2eed
+  languageName: node
+  linkType: hard
+
+"@ledgerhq/errors@npm:^6.16.1":
+  version: 6.16.1
+  resolution: "@ledgerhq/errors@npm:6.16.1"
+  checksum: fcc7f6052d7635b8d9bae59ebceadc99c19cc81df8735e058865cfc78a61476ee466319562ab7c37d1cf88d8e7ac28a8a603076edb10e6c7e1e205218091bff8
   languageName: node
   linkType: hard
 
@@ -1948,14 +1967,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/hw-transport@npm:6.27.1":
-  version: 6.27.1
-  resolution: "@ledgerhq/hw-transport@npm:6.27.1"
+"@ledgerhq/hw-transport@npm:6.30.2":
+  version: 6.30.2
+  resolution: "@ledgerhq/hw-transport@npm:6.30.2"
   dependencies:
-    "@ledgerhq/devices": "npm:^6.27.1"
-    "@ledgerhq/errors": "npm:^6.10.0"
+    "@ledgerhq/devices": "npm:^8.2.0"
+    "@ledgerhq/errors": "npm:^6.16.1"
+    "@ledgerhq/logs": "npm:^6.12.0"
     events: "npm:^3.3.0"
-  checksum: 08794c95c8c8ded64ed022547b1aa3c1d8eb94d0121b1fa40fb9abaaf5bd75d8c7ae9585f49698742f22092fd18eed475c0253477409a54d6b73044c83a6ffad
+  checksum: b89d759b7825bdd2791e421fe13c45324321bcd8c8e056c2cf1c5038f6c7d240e921f00183b36a74c14e0eedabe77171a71a6bf4b7e066fa89b0dd07894f1cfd
   languageName: node
   linkType: hard
 
@@ -1974,6 +1994,13 @@ __metadata:
   version: 6.10.0
   resolution: "@ledgerhq/logs@npm:6.10.0"
   checksum: 68701ae5b47978ca4c699d832b321ae5c86dbe4bc5a3c2506c30781d68910e935616ed96a747ff954c1b4f373ec044e460ded63c244e3509406223077e11a46e
+  languageName: node
+  linkType: hard
+
+"@ledgerhq/logs@npm:^6.12.0":
+  version: 6.12.0
+  resolution: "@ledgerhq/logs@npm:6.12.0"
+  checksum: c8eed4d78d4c9d552bbda069968ef4ea39d241e7c61ebe285e4c4283e379eaee7831b04a700e590ccd579e45bbb4e355fd3ab212aeb25cbc9c8369fc2a31bf0c
   languageName: node
   linkType: hard
 
@@ -2349,7 +2376,7 @@ __metadata:
   resolution: "@saberhq/use-solana@workspace:packages/use-solana"
   dependencies:
     "@ledgerhq/devices": "npm:6.27.1"
-    "@ledgerhq/hw-transport": "npm:6.27.1"
+    "@ledgerhq/hw-transport": "npm:6.30.2"
     "@ledgerhq/hw-transport-webusb": "npm:6.27.1"
     "@saberhq/solana-contrib": "workspace:^"
     "@saberhq/tsconfig": "npm:^2.1.0"
@@ -10199,6 +10226,15 @@ __metadata:
   dependencies:
     tslib: "npm:^2.1.0"
   checksum: 9f40c5ba7904afbffe4a8c5fec9cb35dbd21cac55e20e004fe405f9712efef11d23a0baa23682a16d448976d5795ed66fd843c5f00329dd6e491676373610a79
+  languageName: node
+  linkType: hard
+
+"rxjs@npm:^7.8.1":
+  version: 7.8.1
+  resolution: "rxjs@npm:7.8.1"
+  dependencies:
+    tslib: "npm:^2.1.0"
+  checksum: d7daafba4296c4360b19bdff02d24e2f8acc7731605b0d99a0c920373d0af995bcb6b3c58c211e02db50aabddd9e854250a195f87ed193b56e79f245494774f5
   languageName: node
   linkType: hard
 
